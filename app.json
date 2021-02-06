@@ -1,0 +1,57 @@
+{
+  "name": "Voice Chat Bot",
+  "logo": "https://telegra.ph/file/0e00f9e103c4a21ed35a5.jpg",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/HellBoy-Aaryan/Tg_VC_Bot/",
+  "website": "https://github.com/HellBoy-Aaryan/Tg_VC_Bot/",
+  "success_url": "https://t.me/Hellboy_OP",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": "",
+      "required": false
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    },
+    "radio_link":{
+      "description": "Do not Change!!"
+      "value": "http://peridot.streamguys.com:7150/Mirchi"
+    }
+    "sudo_chat_id":{
+     "description"; "Needed for the Group to be maintained"
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/amivin/aria2-heroku.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "heroku/python"
+  }]
+}

@@ -22,11 +22,11 @@
       "value": ""
     },
     "radio_link":{
-      "description": "Do not Change!!"
+      "description": "Do not Change!!",
       "value": "http://peridot.streamguys.com:7150/Mirchi"
     }
     "sudo_chat_id":{
-     "description"; "Needed for the Group to be maintained"
+     "description"; "Needed for the Group to be maintained",
       "value": ""
     }
   },

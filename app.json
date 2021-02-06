@@ -21,11 +21,11 @@
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": ""
     },
-    "radio_link":{
+    "radio_link": {
       "description": "Do not Change!!",
       "value": "http://peridot.streamguys.com:7150/Mirchi"
     }
-    "sudo_chat_id":{
+    "sudo_chat_id": {
      "description"; "Needed for the Group to be maintained",
       "value": ""
     }
